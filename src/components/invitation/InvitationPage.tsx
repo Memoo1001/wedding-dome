@@ -13,7 +13,7 @@ export default function InvitationPage() {
     []
   );
 
-  const heroBackgroundUrl = useMemo(() => "/hero.jpg", []);
+  const heroBackgroundUrl = useMemo(() => "/boda.jpg", []);
 
   const [rsvpOpen, setRsvpOpen] = useState(false);
   const [name, setName] = useState("");
